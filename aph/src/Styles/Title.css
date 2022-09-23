@@ -1,0 +1,11 @@
+.title-container{
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.title-text {
+
+}
+
