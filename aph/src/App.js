@@ -12,6 +12,7 @@ import Mission from "./Component/Mission.js";
 import Title from "./features/Title";
 import './Styles/App.css'
 import Testimonal from "./Component/Testimonal";
+import Footer from "./Component/Footer";
 
 function App() {
   return (
@@ -41,7 +42,7 @@ function App() {
       <Line/>
       <Title title="Get a free Quote"/>
       <ContactUs/>
-      <Line/>
+      <Footer/>
     </div>
   );
 }
