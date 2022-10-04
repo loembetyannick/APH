@@ -1,0 +1,38 @@
+.au-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.au-container-item {
+  display: flex;
+  justify-content: space-around;
+  width: 73%;
+  margin: 0 2% 2% 2%;
+}
+
+.au-content-title {
+  font-weight: 600;
+}
+
+.au-content-title p {
+  padding: 1vw 0 1vw 0;
+  font-size: 1.5vw;
+}
+
+.au-content-details p {
+  padding: 1vw 0 1vw 0;
+  font-size: 1.5vw;
+}
+
+.au-content-icon {
+  align-self: flex-end;
+}
+
+.au-content-icon img {
+  height: 5vw;
+}
+
+.au-content-map img {
+  width: 100%;
+}
