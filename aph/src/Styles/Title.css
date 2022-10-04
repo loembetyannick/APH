@@ -1,11 +1,30 @@
-.title-container{
-    border:1px solid black;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 2% 0 1% 0;
+  font-family: inter;
+  font-weight: bold;
+  font-size: 2.5vw;
 }
 
-.title-text {
-
+.title-underline-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 3% 0;
 }
 
+.title-underline {
+  height: 0.3vw;
+  background-color: rgba(217, 217, 217, 0.55);
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.title-underline-inner {
+  background-color: #126eb8;
+  height: 100%;
+  width: 20%;
+}

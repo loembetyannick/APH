@@ -1,0 +1,38 @@
+.info-container {
+  width: 100%;
+  font-family: inter;
+  font-weight: bold;
+}
+
+.info-item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 25vw;
+  padding: 4vw 10vw 3vw 10vw;
+}
+.info-title {
+  align-self: flex-start;
+  font-size: 2.5vw;
+  margin: 0 0 4.2vw 0;
+  color: white;
+}
+
+.info-content {
+  font-size: 2vw;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.item-1 {
+  background-color: #db7f45;
+}
+
+.item-2 {
+  background-color: #126eb8;
+}
+
+.item-3 {
+  background-color: #db7f45;
+}

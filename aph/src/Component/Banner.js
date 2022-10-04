@@ -13,7 +13,7 @@ const Banner = () => {
           </div>
           <div className='img-items-2'>
               <img src={image_middle}/>
-              <button>CONTACT US</button>
+              <button>GET A QUOTE</button>
           </div>
           <div className='img-items-3'>
               <img src={image_right}/>

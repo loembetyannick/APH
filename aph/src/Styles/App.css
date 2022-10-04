@@ -1,7 +1,8 @@
-*{
-    margin: 0px;
+* {
+  margin: 0px;
 }
 
 body {
-    height: 100vh;
+  height: 100vh;
+  font-family: inter;
 }

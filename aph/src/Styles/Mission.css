@@ -1,0 +1,57 @@
+.mission-container img {
+  height: 107.9vw;
+  z-index: -20;
+}
+
+.mission-container {
+  position: relative;
+}
+
+.mission-container-item {
+  width: 99.9%;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+}
+
+.m-item-container {
+  margin-top: 8vw;
+  padding: 0 5vw 6vw 5vw;
+}
+
+.m-item-text {
+  text-align: center;
+  font-size: 3vw;
+  font-weight: 500;
+  color: white;
+  line-height: 1.2;
+}
+
+.m-step-container {
+  display: flex;
+  justify-content: center;
+}
+
+.m-step-item {
+  border-radius: 1vw;
+  margin: 1.2vw 0 1.2vw 0;
+  padding: 7% 0% 7% 3%;
+  width: 73%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.08);
+  align-items: center;
+}
+
+.m-step-item img {
+  height: 8vw;
+  z-index: 100;
+}
+
+.m-step-item-text {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 1.8vw;
+  color: white;
+  font-weight: 300;
+}

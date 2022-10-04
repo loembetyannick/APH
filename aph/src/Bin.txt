@@ -1,0 +1,15 @@
+         {/* {slides.map((slide,index)=>{
+                    return (
+                        <div className={index === current ? 'slide active' : 'slide'}>
+                        {index === current && (
+                            <div className='t-slide'>
+                                  <div>
+                            <img src={aphcircle}/>
+                            </div>
+                                <p className='t-img-name'>YANNICK</p>
+                                <p className='image t-img'>{slide.text}</p>
+                            </div>
+                        )}
+                        </div>
+                    )
+                })} */}

@@ -1,46 +1,49 @@
 .nav-container {
-    border: 1px solid black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    font-family: inter;
-    background-color: black;
-    font-size: 1vw;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: inter;
+  background-color: black;
+  font-size: 1vw;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
 }
 
 .nav-logo {
-    padding: 10px;
-    order: 1;
-    margin-left: 2%;
+  padding: 10px;
+  order: 1;
+  margin-left: 2%;
 }
 
 .nav-options {
-    display: flex;
-    list-style: none;
-    order: 2;
-    flex-grow: 1;
-    justify-content: center;
-    column-gap: 100px;
-    color: white;
-    flex-wrap: wrap;
+  display: flex;
+  list-style: none;
+  order: 2;
+  flex-grow: 1;
+  justify-content: center;
+  column-gap: 100px;
+  color: white;
+  flex-wrap: wrap;
 }
 
 .nav-options li {
-    display: flex;
-    align-items: center;
-    padding: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
 .nav-social {
-    display: flex;
-    list-style: none;
-    order: 3;
-    margin-right: 2%;
-    color: white;
+  display: flex;
+  list-style: none;
+  order: 3;
+  margin-right: 2%;
+  color: white;
 }
 
 .nav-social li {
-    display: flex;
-    align-items: center;
-    padding: 7px;
+  display: flex;
+  align-items: center;
+  padding: 7px;
 }
