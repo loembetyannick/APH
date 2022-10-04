@@ -10,7 +10,7 @@
 }
 
 .t-slider {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   position: absolute;
   top: 0;
   height: 100%;
@@ -21,7 +21,7 @@
 }
 
 .t-middle-container {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -32,7 +32,7 @@
 }
 
 .t-text-container {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   position: absolute;
   text-align: center;
 }
@@ -40,54 +40,55 @@
 .t-middle-img {
   position: absolute;
   top: -11vw;
-  left: 33.6vw;
+  left: 0;
   height: 5vw;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+  width: 100%;
 }
 
 .t-middle-short {
   position: absolute;
   top: -5vw;
-  left: 34vw;
-  font-size: 2vw;
-  font-weight: 500;
+  font-size: 2.5vw;
+  font-weight: 700;
   color: #db7f45;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+  width: 100%;
 }
 
 .t-text-long {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   font-size: 2vw;
   color: white;
-  font-weight: 200;
+  font-weight: 400;
   margin: 0 2vw 0 2vw;
 }
 
 .t-quote-container {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   position: relative;
   display: flex;
   justify-content: center;
   width: 100%;
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
 }
 
 .t-quote-container .t-quote-img {
-  border: 1px solid rgb(0, 217, 255);
+  /* border: 1px solid rgb(0, 217, 255); */
   height: 100%;
 }
 
 .t-quote-img img {
-  height: 4vw;
+  height: 3vw;
 }
 
 .t-left-container {
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .t-right-container {
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .t-left {

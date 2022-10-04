@@ -34,15 +34,25 @@ const Testimonal = () => {
                 </div>
                 <div className='t-middle-container'>
  
-                    <div className='t-text-container'>
-                        <img src={aphcircle} className='t-middle-img'/>
-                        <p className='t-middle-short'>
-                            Title
-                        </p>
-                        <p className='t-text-long'>
-                        Provide our customers with a value for money product making sure the quality is kept to a high standard.Provide our customers with a value for money product making sure the quality is kept to a high standard.Provide our customers with a value for money product making sure the quality is kept to a high standard.
-                        </p>
-                    </div>
+                    {text_data.map((text,index)=>{
+                        return (
+                            <div className='t-text-container'>
+                                {index == current && (
+                                    <>
+                                        <img src={aphcircle} className='t-middle-img'/>
+                                        <p className='t-middle-short'>
+                                           {text.name}
+                                        </p>
+                                        <p className='t-text-long'>
+                                            {text.text}
+                                        </p>
+                                    </>
+                                )}
+                                
+                            </div>
+                        )
+                    })}
+                
                     <div className='t-quote-container'>
                         <div className='t-quote-img'>
                             <img src={quotes} />
