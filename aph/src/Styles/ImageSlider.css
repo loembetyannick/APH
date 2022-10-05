@@ -55,3 +55,22 @@
   font-weight: bold;
   color: rgba(0, 0, 0, 0.38);
 }
+
+@media only screen and (max-width: 600px) {
+  .image {
+    height: 80vw;
+    border-radius: 2.5vw;
+  }
+
+  .slider-container {
+    margin-top: 10vw;
+    margin-bottom: 12vw;
+  }
+
+  .left-arrow {
+    left: 8vw;
+  }
+  .right-arrow {
+    right: 9vw;
+  }
+}

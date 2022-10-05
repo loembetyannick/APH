@@ -134,4 +134,12 @@
   #hidden-social {
     bottom: -600%;
   }
+
+  #hidden {
+    font-size: 5vw;
+  }
+
+  #hidden-social img {
+    height: 7vw;
+  }
 }

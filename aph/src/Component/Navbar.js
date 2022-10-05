@@ -9,7 +9,7 @@ import tt_icon from '../ICONS/tiktok.png'
 
 const Navbar = () => {
 
-  const [showLinks,setShowLinks] = useState(true);
+  const [showLinks,setShowLinks] = useState(false);
 
   return (
     <nav className='nav-container'>

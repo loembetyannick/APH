@@ -50,3 +50,29 @@
   margin-top: 5vw;
   font-weight: 400;
 }
+
+@media only screen and (max-width: 600px) {
+  .cu-container-item {
+    width: 60%;
+    margin: 0 10% 0 10%;
+    grid-template-columns: 1fr;
+  }
+  .cu-item img {
+    height: 10vw;
+    width: 10vw;
+  }
+
+  .cu-item {
+    padding: 15% 10%;
+  }
+
+  .cu-item-font {
+    font-size: 4vw;
+  }
+
+  .cu-item-content {
+    color: rgba(25, 2, 2, 0.5);
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+}

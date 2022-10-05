@@ -62,3 +62,36 @@
   display: flex;
   justify-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    /* border: 1px solid red; */
+    grid-template-columns: 1fr;
+    font-size: 3.25vw;
+    padding: 2vw 1vw 1vw 1vw;
+  }
+  .pages-reviews {
+    /* border: 1px solid green; */
+    padding: 2vw;
+    justify-content: start;
+  }
+  .pages-reviews img {
+    height: 10vw;
+  }
+  .pages-socials img {
+    height: 5vw;
+  }
+
+  .pages-container {
+    padding: 2vw 1vw 4vw 1vw;
+  }
+  .pages-contact {
+    padding: 2vw 1vw 4vw 1vw;
+  }
+  .pages-socials {
+    padding: 2vw 1vw 4vw 1vw;
+  }
+  .pages-reviews {
+    padding: 2vw 1vw 4vw 1vw;
+  }
+}

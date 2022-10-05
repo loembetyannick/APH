@@ -100,3 +100,30 @@
   height: 5vw;
   margin-right: 10vw;
 }
+
+@media only screen and (max-width: 600px) {
+  .t-text-long {
+    font-size: 3.35vw;
+  }
+
+  .t-right {
+    margin-right: 2vw;
+  }
+
+  .t-left {
+    margin-left: 2vw;
+  }
+  .t-quote-container {
+    bottom: 10%;
+  }
+  .t-text-container img {
+    display: none;
+  }
+
+  .t-middle-short {
+    font-size: 3.75vw;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+}

@@ -36,3 +36,31 @@
 .au-content-map img {
   width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  .au-container-item {
+    width: 100%;
+  }
+  .au-content-title p {
+    font-size: 3.2vw;
+  }
+
+  .au-content-details p {
+    font-size: 3vw;
+  }
+
+  .au-content-details {
+    margin-top: 0.5%;
+  }
+
+  .au-content-icon img {
+    height: 7vw;
+  }
+
+  .au-container {
+    margin-bottom: 2%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+}

@@ -22,7 +22,7 @@ const ImageSlider = ({slides}) => {
       return null;
   }
   return (
-    <>
+    <div className='slider-container'>
         <section className='slider'>
             <img src={left_arrow} className="left-arrow" onClick={prevSlide} />
             <img src={right_arrow} className="right-arrow" onClick={nextSlide}/>
@@ -37,10 +37,10 @@ const ImageSlider = ({slides}) => {
                 )
             })}
         </section>
-        <div className='full-screen'>
+        {/* <div className='full-screen'>
             <p>Click Image for full screen</p>
-        </div>
-    </>
+        </div> */}
+    </div>
     
   )
 }

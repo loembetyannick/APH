@@ -10,3 +10,10 @@
   margin-top: 2%;
   width: 66%;
 }
+
+@media only screen and (max-width: 600px) {
+  .line-item {
+    width: 88%;
+    padding: 0.2vw;
+  }
+}
