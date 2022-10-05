@@ -61,8 +61,8 @@
     font-size: 4vw;
   }
   .m-item-container {
-    margin-top: 7vw;
-    padding: 0 5vw 3vw 5vw;
+    margin-top: 4vw;
+    padding: 0 5vw 1.5vw 5vw;
   }
 
   .m-step-item-text {
@@ -73,7 +73,4 @@
   .m-step-item {
     padding: 2%;
   }
-}
-
-@media only screen and (max-width: 450px) {
 }
