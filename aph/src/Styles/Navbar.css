@@ -17,6 +17,10 @@
   margin-left: 2%;
 }
 
+.nav-logo img {
+  height: 3vw;
+}
+
 .nav-options {
   display: flex;
   list-style: none;
@@ -46,4 +50,88 @@
   display: flex;
   align-items: center;
   padding: 7px;
+}
+
+.nav-hamburger {
+  display: none;
+}
+
+.nav-hamburger img {
+  height: 3vw;
+}
+
+/* Ipad Sizes */
+
+@media only screen and (max-width: 1024px) {
+  .nav-hamburger {
+    display: flex;
+    width: 100%;
+    flex: 50%;
+    align-items: center;
+    justify-content: right;
+    order: 4;
+    margin-right: 3vw;
+  }
+
+  .nav-options {
+    display: none;
+  }
+
+  .nav-social {
+    display: none;
+  }
+
+  /* The navbar bar hidden conditional box */
+  #hidden {
+    top: 100%;
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding-left: 6vw;
+    background-color: black;
+    font-size: 3.5vw;
+    padding-top: 2vw;
+  }
+
+  #hidden-social {
+    display: flex;
+    position: absolute;
+    bottom: -950%;
+    z-index: 100;
+    left: 3.5%;
+  }
+
+  #hidden-social img {
+    height: 5vw;
+  }
+
+  #hidden li:hover {
+    color: #126eb8;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-logo img {
+    height: 5vw;
+  }
+  #hidden-social {
+    bottom: -700%;
+  }
+}
+
+/* Larger phone */
+
+@media only screen and (max-width: 600px) {
+  .nav-logo img {
+    height: 6vw;
+  }
+
+  #hidden-social {
+    bottom: -600%;
+  }
 }

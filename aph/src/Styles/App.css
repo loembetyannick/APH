@@ -6,3 +6,9 @@ body {
   height: 100vh;
   font-family: inter;
 }
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
