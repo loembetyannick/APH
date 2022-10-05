@@ -139,7 +139,8 @@
     font-size: 5vw;
   }
 
-  #hidden-social img {
+  #hidden-social {
     height: 7vw;
+    top: 700%;
   }
 }
