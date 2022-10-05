@@ -28,3 +28,17 @@
   height: 100%;
   width: 20%;
 }
+
+@media only screen and (max-width: 600px) {
+  .title-container {
+    font-size: 5.25vw;
+  }
+  .title-underline {
+    width: 30%;
+    height: 0.5vw;
+  }
+
+  .title-underline-inner {
+    width: 30%;
+  }
+}

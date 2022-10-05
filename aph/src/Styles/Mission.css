@@ -36,7 +36,7 @@
   border-radius: 1vw;
   margin: 1.2vw 0 1.2vw 0;
   padding: 7% 0% 7% 3%;
-  width: 73%;
+  width: 65%;
   display: flex;
   justify-content: space-evenly;
   background-color: rgba(0, 0, 0, 0.08);
@@ -54,4 +54,26 @@
   font-size: 2.3vw;
   color: white;
   font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+  .m-item-text {
+    font-size: 4vw;
+  }
+  .m-item-container {
+    margin-top: 7vw;
+    padding: 0 5vw 3vw 5vw;
+  }
+
+  .m-step-item-text {
+    font-size: 3.25vw;
+    padding: 3%;
+  }
+
+  .m-step-item {
+    padding: 2%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
 }
