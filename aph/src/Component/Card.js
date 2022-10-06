@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../Styles/Card.css'
 import _247service from '../APH-IMAGES/247service.svg'
 import qualified_engineers from '../APH-IMAGES/qualifiedengineers.svg'
@@ -6,10 +6,20 @@ import gas_registered from '../APH-IMAGES/gs.svg'
 import always_avaliable from '../APH-IMAGES/aa.svg'
 import boiler from '../APH-IMAGES/bo.svg'
 import services from '../APH-IMAGES/se.svg'
+import 'aos/dist/aos.css'
+import { useInView } from 'react-intersection-observer'
 
 const Card = () => {
+
+    const {ref:myRef,inView:myRefIsVisible} = useInView();
+
+    useEffect(()=>{
+        if(myRefIsVisible){
+            console.log('hello')
+        }
+    });
   return (
-    <div className='card-container'>
+    <div className={myRefIsVisible ? 'card-container' : 'card-container'}>
         <div className='card-item-container'>
             <div className='card-item'>
                 <img src={_247service} />

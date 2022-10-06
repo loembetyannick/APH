@@ -21,25 +21,39 @@ function App() {
       <Banner/>
       <Contact_Banner/>
       <Quote/>
-      <Line/>
+      <div id='what-we-offer'>
+        <Line/>
+      </div>
       <Title title="What we Offer"/>
       <Card/>
-      <Line/>
+      <div id="why-us">
+        <Line/>
+      </div>
       <Title title="Why Us?"/>
       <Info/>
-      <Line/>
+      <div id="our-projects">
+        <Line/>
+      </div>
       <Title title="Our Projects"/>
       <Projects/>
-      <Line/>
+      <div id="review">
+        <Line/>
+      </div>
       <Title title="Testimonals"/>
       <Testimonal/>
-      <Line/>
+      <div id="about-us">
+        <Line/>
+      </div>
       <Title title="About Us"/>
       <AboutUs/>
-      <Line/>
+      <div id="">
+        <Line/>
+      </div>
       <Title title="Our Mission"/>
       <Mission/>
-      <Line/>
+      <div id="contact-us">
+        <Line/>
+      </div>
       <Title title="Get a free Quote"/>
       <ContactUs/>
       <Footer/>

@@ -1,0 +1,6 @@
+.zoom {
+  animation: zoom_in 2s;
+}
+
+@keyframes zoom_in {
+}
