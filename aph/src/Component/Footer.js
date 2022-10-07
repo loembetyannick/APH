@@ -11,27 +11,32 @@ const Footer = () => {
         <div className='footer-container'>
             <div className='pages-container'>
                 <p className='pages-container-title'>Pages</p>
-                <p className='pages-container-content'>About Me</p>
-                <p className='pages-container-content'>Review</p>
-                <p className='pages-container-content'>Our Services</p>
-                <p className='pages-container-content'>Contact</p>
-                <p className='pages-container-content'>Home</p>
+                <p className='pages-container-content'><a href='#why-us'>About Me</a></p>
+                <p className='pages-container-content'><a href='#review'>Review</a></p>
+                <p className='pages-container-content'><a href='#what-we-offer'>Our Services</a></p>
+                <p className='pages-container-content'><a href='#contact-us'>Contact</a></p>
+                <p className='pages-container-content'><a href='#home'>Home</a></p>
             </div>
             <div className='pages-contact'>
                 <p className='pages-container-title'>Contact</p>
-                <p className='pages-container-content'>07506 5225550</p>
-                <p className='pages-container-content'>info@adalplumbinganadheating.com</p>
+                <p className='pages-container-content'><a href='tel:075065225550'>07506 5225550</a></p>
+                <p className='pages-container-content'><a href='mailto:info@adalplumbinganadheating.com'>info@adalplumbinganadheating.com</a></p>
+                <br/>
             </div>
             <div className='pages-socials'>
                 <p className='pages-container-title'>Follow Us</p>
                 <div className='pages-socials-icons'>
-                    <img src={fb_icon}/>
-                    <img src={insta_icon}/>
-                    <img src={tt_icon}/>
+                    <a href='https://www.facebook.com/ADLPlumbingAndHeatingServices/'><img src={fb_icon}/></a>
+                    <a href='https://www.facebook.com/ADLPlumbingAndHeatingServices/'><img src={insta_icon}/></a>
+                    <a href='https://www.facebook.com/ADLPlumbingAndHeatingServices/'><img src={tt_icon}/></a>
                 </div>
             </div>
             <div className='pages-reviews'>
-                <img src={gmb_icon}/>
+                <a href='https://g.page/r/CQwJ9jS-OXFhEB0/review'><img src={gmb_icon}/></a>
+            </div>
+            <div className='footer-tm'>
+                <p className='pages-container-content'><a>© 2022 ADAL PLUMBING AND HEATING LTD - All rights reserved</a></p>
+                <br/>
             </div>
         </div>
     </div>

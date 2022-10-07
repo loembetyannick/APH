@@ -9,18 +9,22 @@ const Contact_Banner = () => {
     <div className='contact-banner'>
       <div className='contact-banner-phone'>
         <div className='contact-banner-img'>
-          <img src={phone_icon}/>
+         <a href='tel:07506522550'>
+            <img src={phone_icon}/>
+         </a>
         </div>
         <div className='contact-banner-number'>
-          <p>07506 522550</p>
+          <p><a style={{color:"rgba(25, 2, 2, 0.5)"}} href='tel:07506522550'>07506 522550</a></p>
         </div>
       </div>
       <div className='contact-banner-email'>
         <div className='contact-banner-img'>
-          <img src={email_icon}/>
+          <a style={{color:"rgba(25, 2, 2, 0.5)"}} href='mailto:info@adalplumbingandheating.com'>
+              <img src={email_icon}/>
+          </a>
         </div>
         <div className='contact-banner-emailtext'>
-          <p>info@adalplumbingandheating.com</p>
+          <p> <a style={{color:"rgba(25, 2, 2, 0.5)"}} href='mailto:info@adalplumbingandheating.com'>info@adalplumbingandheating.com</a></p>
         </div>
       </div>
     </div>

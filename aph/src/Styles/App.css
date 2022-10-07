@@ -5,10 +5,34 @@
 body {
   height: 100vh;
   font-family: inter;
+  scroll-padding: 1.5vw;
 }
 
 html,
 body {
   max-width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  transform: 1s;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #126eb8;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    scroll-padding: 5vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    scroll-padding: 10vw;
+  }
 }

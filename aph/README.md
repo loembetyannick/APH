@@ -1,11 +1,9 @@
-screen sizes (px)
-
-- ipad
-  - 1024
-- large phone
-  - 600
-- normal phone
-  - 450
+- watch 2 videos on animai
+  tion
+  - web dev simp
+  - observer react
+- add home smooth animation
+- watch how to make a website more professional
 
 template
 
