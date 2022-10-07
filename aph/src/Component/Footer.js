@@ -26,9 +26,8 @@ const Footer = () => {
             <div className='pages-socials'>
                 <p className='pages-container-title'>Follow Us</p>
                 <div className='pages-socials-icons'>
-                    <a href='https://www.facebook.com/ADLPlumbingAndHeatingServices/'><img src={fb_icon}/></a>
-                    <a href='https://www.facebook.com/ADLPlumbingAndHeatingServices/'><img src={insta_icon}/></a>
-                    <a href='https://www.facebook.com/ADLPlumbingAndHeatingServices/'><img src={tt_icon}/></a>
+                    <a href='https://m.facebook.com/adalplumbingandheating/'><img src={fb_icon}/></a>
+                    <a href='https://www.instagram.com/adalplumbingandheatingltd/?hl=en'><img src={insta_icon}/></a>
                 </div>
             </div>
             <div className='pages-reviews'>
