@@ -5,6 +5,7 @@ import hamburger from '../APH-IMAGES/hamburger.svg'
 import exit from '../APH-IMAGES/exit.svg'
 import fb_icon from '../ICONS/facebook.png'
 import insta_icon from '../ICONS/instagram.png'
+import twitter_icon from '../ICONS/twitter.svg'
 import tt_icon from '../ICONS/tiktok.png'
 
 const Navbar = () => {
@@ -24,6 +25,7 @@ const Navbar = () => {
         <div className='nav-social' id={showLinks? 'hidden-social':''}>
             <li><a href='https://m.facebook.com/adalplumbingandheating/'><img src={fb_icon}/></a></li>
             <li><a href='https://www.instagram.com/adalplumbingandheatingltd/?hl=en'><img src={insta_icon}/></a></li>
+            <li><a href='https://www.instagram.com/adalplumbingandheatingltd/?hl=en'><img src={twitter_icon}/></a></li>
         </div>
         <div className='nav-hamburger' onClick={() => setShowLinks(!showLinks)}>
           {showLinks?

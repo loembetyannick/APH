@@ -47,8 +47,7 @@ const Testimonal = () => {
                                             {text.text}
                                         </p>
                                     </>
-                                )}
-                                
+                                )}    
                             </div>
                         )
                     })}

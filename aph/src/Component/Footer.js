@@ -4,6 +4,7 @@ import fb_icon from '../ICONS/facebook.png'
 import insta_icon from '../ICONS/instagram.png'
 import tt_icon from '../ICONS/tiktok.png'
 import gmb_icon from '../APH-IMAGES/gmb-review.png'
+import twitter_icon from '../ICONS/twitter.svg'
 
 const Footer = () => {
   return (
@@ -28,6 +29,7 @@ const Footer = () => {
                 <div className='pages-socials-icons'>
                     <a href='https://m.facebook.com/adalplumbingandheating/'><img src={fb_icon}/></a>
                     <a href='https://www.instagram.com/adalplumbingandheatingltd/?hl=en'><img src={insta_icon}/></a>
+                    <a href='https://www.instagram.com/adalplumbingandheatingltd/?hl=en'><img src={twitter_icon}/></a>
                 </div>
             </div>
             <div className='pages-reviews'>
