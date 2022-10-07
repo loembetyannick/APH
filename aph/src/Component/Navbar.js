@@ -6,7 +6,6 @@ import exit from '../APH-IMAGES/exit.svg'
 import fb_icon from '../ICONS/facebook.png'
 import insta_icon from '../ICONS/instagram.png'
 import tt_icon from '../ICONS/tiktok.png'
-import { faL } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
 
@@ -14,9 +13,9 @@ const Navbar = () => {
 
   return (
     <nav className='nav-container'>
-        <div className='nav-logo'><a href='/'><img src={logo}/></a></div>
+        <div className='nav-logo'><a href='#home'><img src={logo}/></a></div>
         <div className='nav-options' id={showLinks? 'hidden':''}>
-            <li><a href='/' onClick={() => setShowLinks(false)}>Home</a></li>
+            <li><a href='#home' onClick={() => setShowLinks(false)}>Home</a></li>
             <li><a href='#what-we-offer'  onClick={() => setShowLinks(false)}>Services</a></li>
             <li><a href='#why-us'  onClick={() => setShowLinks(false)}>About</a></li>
             <li><a href='#review'  onClick={() => setShowLinks(false)}>Reviews</a></li>

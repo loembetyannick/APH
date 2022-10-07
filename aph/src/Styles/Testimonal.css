@@ -35,6 +35,14 @@
   /* border: 1px solid green; */
   position: absolute;
   text-align: center;
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.t-text-container.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1);
 }
 
 .t-middle-img {

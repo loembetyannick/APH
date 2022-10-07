@@ -36,7 +36,7 @@ const Testimonal = () => {
  
                     {text_data.map((text,index)=>{
                         return (
-                            <div className='t-text-container'>
+                            <div className={ index == current ? 't-text-container active' : 't-text-container'}>
                                 {index == current && (
                                     <>
                                         <img src={aphcircle} className='t-middle-img'/>

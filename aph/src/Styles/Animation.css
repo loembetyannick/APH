@@ -1,6 +1,79 @@
-.zoom {
-  animation: zoom_in 2s;
+.slide_in_right {
+  animation: slideInRight 1s ease-out;
 }
 
-@keyframes zoom_in {
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    margin-left: 100%;
+  }
+  to {
+    opacity: 1;
+    margin-left: 0%;
+  }
+}
+
+.slide_in_left {
+  animation: slideInLeft 1s ease-out;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    margin-right: 100%;
+  }
+  to {
+    opacity: 1;
+    margin-right: 0%;
+  }
+}
+
+.zoom_in {
+  animation: slideUp 1.9s ease;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.slide_down {
+  animation: slideDown 2s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide_down_bg {
+  animation: slideDownBg 1.5s 0.5ms ease-out;
+}
+
+@keyframes slideDownBg {
+  0% {
+    opacity: 0;
+    margin-left: 100%;
+    overflow: hidden;
+  }
+
+  99% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+    overflow: hidden;
+    margin-top: 0%;
+    scroll-padding: 1vw;
+  }
 }

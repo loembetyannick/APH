@@ -3,15 +3,14 @@ import '../Styles/Banner.css'
 import image_left from '../APH-IMAGES/image-left.png'
 import image_middle from '../APH-IMAGES/image-middle.png'
 import image_right from '../APH-IMAGES/image-right.png'
-import { useInView } from 'react-intersection-observer'
+import aos from 'aos';
+import 'aos/dist/aos.css'
+import '../Styles/Animation.css'
 
 const Banner = () => {
 
-  const {ref:myRef,inView:myRefIsVisible} = useInView();
-
   useEffect(()=>{
-    if(myRefIsVisible){
-    }
+    aos.init({duration:2000});
   })
 
   return (
@@ -20,9 +19,9 @@ const Banner = () => {
           <div className='img-items-1'>
               <img src={image_left}/>
           </div>
-          <div ref={myRef} className='img-items-2'>
+          <div className='img-items-2'>
               <img src={image_middle}/>
-                <a style={{color:"white"}} href='#contact-us'>GET A QUOTE</a>
+              <a data-aos='zoom-in' style={{color:"white"}} href='#contact-us'>GET A QUOTE</a>
           </div>
           <div className='img-items-3'>
               <img src={image_right}/>
