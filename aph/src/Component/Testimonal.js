@@ -28,7 +28,46 @@ const Testimonal = () => {
     <div className='t-container'>
         <img className='t-bg' src={testimonal_bg}/>
         <div className='t-container-item'>
-            <section className='t-slider'>
+            <div className='tt-con'>
+                <div className='ti tt-item1'>
+                    <div className='tt-left-container' onClick={prevSlide}>
+                        <img src={left_arrow} className="t-left-icon"  />
+                    </div>
+                </div>
+                <div className='ti tt-item2'>
+                    <img src={aphcircle} className='tt-middle-img'/>
+                </div>
+                <div className='ti tt-item3'>
+                {text_data.map((text,index)=>{
+                        return (
+                            <div className={ index === current ? 't-text-container active' : ''}>
+                                {index === current && (
+                                    <>
+                                        <p className='t-middle-short'>
+                                           {text.name}
+                                        </p>
+                                        <p className='t-text-long'>
+                                            {text.text}
+                                        </p>
+                                        <div className='t-quote-container'>
+                                            <div className='t-quote-img'>
+                                                <img src={quotes} />
+                                            </div>
+                                        </div>
+                                    </>
+                                )}    
+                            </div>
+                        )
+                    })}
+                </div>
+                <div className='ti tt-item4'></div>
+                <div className='ti tt-item5'>
+                <div className='tt-right-container' onClick={nextSlide}>
+                    <img src={right_arrow} className="t-right-icon" />
+                </div>
+                </div>
+            </div>
+            {/* <section className='t-slider'>
                 <div className='t-left-container' onClick={prevSlide}>
                     <img src={left_arrow} className="t-left"  />
                 </div>
@@ -61,7 +100,10 @@ const Testimonal = () => {
                 <div className='t-right-container' onClick={nextSlide}>
                     <img src={right_arrow} className="t-right" />
                 </div>
-            </section>
+            </section> */}
+
+
+            {/* USING GRIDS */}
         </div>
     </div>
   )

@@ -32,6 +32,10 @@
   animation: slideUp 1.9s ease;
 }
 
+.zoom_in_slow {
+  animation: slideUp 1.9s 0.9s ease-in-out;
+}
+
 @keyframes slideUp {
   from {
     opacity: 0;

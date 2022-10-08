@@ -23,23 +23,25 @@ const ImageSlider = ({slides}) => {
   }
   return (
     <div className='slider-container'>
-        <section className='slider'>
-            <img src={left_arrow} className="left-arrow" onClick={prevSlide} />
-            <img src={right_arrow} className="right-arrow" onClick={nextSlide}/>
-        
-            {SliderData.map((slide,index)=>{
-                return (
-                    <div className={index === current ? 'slide active' : 'slide'}>
-                    {index === current && (
-                            <img src={slide.image} className='image'/>
-                    )}
-                    </div>
-                )
-            })}
-        </section>
-        {/* <div className='full-screen'>
-            <p>Click Image for full screen</p>
-        </div> */}
+        <div className='slider-item-container'>
+            <div className='si s-item1'>
+                <img src={left_arrow} className="left-arrow" onClick={prevSlide} />
+            </div>
+            <div className='si s-item2'>
+                {SliderData.map((slide,index)=>{
+                    return (
+                        <div className={index === current ? 'slide active' : ''}>
+                        {index === current && (
+                                <img src={slide.image} className='image'/>
+                        )}
+                        </div>
+                    )
+                })}
+            </div>
+            <div className='si s-item3'>
+                <img src={right_arrow} className="right-arrow" onClick={nextSlide}/>
+            </div>
+        </div>
     </div>
     
   )

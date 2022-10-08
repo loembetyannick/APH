@@ -12,7 +12,7 @@ const Footer = () => {
         <div className='footer-container'>
             <div className='pages-container'>
                 <p className='pages-container-title'>Pages</p>
-                <p className='pages-container-content'><a href='#why-us'>About Me</a></p>
+                <p className='pages-container-content'><a href='#why-us'>Why Us</a></p>
                 <p className='pages-container-content'><a href='#review'>Review</a></p>
                 <p className='pages-container-content'><a href='#what-we-offer'>Our Services</a></p>
                 <p className='pages-container-content'><a href='#contact-us'>Contact</a></p>
