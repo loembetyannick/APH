@@ -123,6 +123,7 @@
   position: absolute;
   top: 0;
   display: grid;
+  align-content: center;
   /* grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr; */
 }
