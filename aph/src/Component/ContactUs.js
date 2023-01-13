@@ -18,7 +18,7 @@ const ContactUs = () => {
             <div className='cu-item'>
                   <img src={email_icon} />
                   <p className='cu-item-font'>EMAIL</p>
-                  <p className='cu-item-content'>info@adalplumbingandheating.com</p>
+                  <p className='cu-item-content'>info@adalplumbingandheating.co.uk</p>
                   <br/>
                   <p className='cu-item-content extra-info'><a style={{color:"black",fontWeight:'600'}} href='mailto:info@adalplumbingandheating.com'>press to email us</a></p>
             </div>
