@@ -34,11 +34,11 @@ function App() {
         </div>
         <Title title="Why Us?"/>
         <Info/>
-        <div id="our-projects">
+        <div id="">
           <Line/>
         </div>
-        <Title title="Our Projects"/>
-        <Projects/>
+        <Title title="Our Mission"/>
+        <Mission/>
         <div id="review">
           <Line/>
         </div>
@@ -49,11 +49,11 @@ function App() {
         </div>
         <Title title="About Us"/>
         <AboutUs/>
-        <div id="">
+        <div id="our-projects">
           <Line/>
         </div>
-        <Title title="Our Mission"/>
-        <Mission/>
+        <Title title="Our Projects"/>
+        <Projects/>
         <div id="contact-us">
           <Line/>
         </div>

@@ -1,5 +1,5 @@
 .nav-container {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -9,6 +9,7 @@
   width: 100%;
   position: fixed;
   z-index: 10;
+  /* border: 2px solid red; */
   box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
 }
 
@@ -16,6 +17,7 @@
   padding: 10px;
   order: 1;
   margin-left: 2%;
+  /* border: 1px solid blue; */
 }
 
 .nav-logo img {
@@ -55,10 +57,12 @@
 
 .nav-hamburger {
   display: none;
+  /* border: 2px solid green; */
 }
 
 .nav-hamburger img {
   height: 3vw;
+  /* border: 1px solid yellow; */
 }
 
 /* Ipad Sizes */
@@ -67,9 +71,9 @@
   .nav-hamburger {
     display: flex;
     width: 100%;
-    flex: 50%;
+    flex: 25%;
     align-items: center;
-    justify-content: right;
+    justify-content: flex-end;
     order: 4;
     margin-right: 3vw;
   }

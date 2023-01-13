@@ -24,28 +24,28 @@ const Card = () => {
                 <div className={cardOneVisible?'card-item-img slide_in_left':'card-item-img'}>
                     <img src={_247service} />
                     <p className='card-item-font'>24/7 SERVICES</p>
-                    <p className='card-item-content'>For any plumbing and heating emergency you experience our team is available 24 hours a day 7 days a week. We assure that our engineers will be there as quickly as possible, wherever you are in Doncaster or South Yorkshire. </p>
+                    <p className='card-item-content'>For any plumbing and heating emergency you experience, our team is available 24 hours a day, 7 days a week. We assure that our engineers will be there as quickly as possible, wherever you are in Doncaster or South Yorkshire. </p>
                 </div>
             </div>
             <div ref={card_two} className='card-item'>
                 <div className={cardTwoVisible?'card-item-img slide_in_right':'card-item-img'}>
                     <img src={qualified_engineers}/>
                     <p className='card-item-font'>QUALIFIED ENGINEERS</p>
-                    <p className='card-item-content'>We are fully qualified and expierenced for minor plumbing repairs to larger projects such as full bathroom designs and installations. We are also fully gas safe to complete all gas related works.</p>
+                    <p className='card-item-content'>We are fully qualified and experienced for minor plumbing repairs to larger projects such as full bathroom designs and installations. We are also fully gas safe to complete all gas related works.</p>
                 </div>
             </div>
             <div ref={card_three} className='card-item'>
                 <div className={cardThreeVisible?'card-item-img slide_in_left':'card-item-img'}>
                     <img src={boiler}/>
                     <p className='card-item-font'>BOILER INSTALLATION</p>
-                    <p className='card-item-content'>When you need a new boiler we are here to help! We are qualified to install any boiler and we are able tol understand the questions and concerns you may have in making this change.</p>
+                    <p className='card-item-content'>When you need a new boiler we are here to help! We are qualified to install any boiler and we are able to understand the questions and concerns you may have in making this change.</p>
                 </div>
             </div>
             <div ref={card_four} className='card-item'>
                 <div className={cardFourVisible?'card-item-img slide_in_right':'card-item-img'}>
                     <img src={always_avaliable}/>
                     <p className='card-item-font'>ALWAYS AVALIABLE</p>
-                    <p className='card-item-content'>As a team we prides ourselves on giving the best quality of service to our customers, we understand the importance of reliability and  professionalism to the highest standard and ensure our customers are always left satisfied.</p>
+                    <p className='card-item-content'>As a team we pride ourselves on giving the best quality of service to our customers. We understand the importance of reliability and  professionalism to the highest standard and ensure our customers are always left satisfied.</p>
                 </div>     
             </div>
             <div ref={card_five} className='card-item'>

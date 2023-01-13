@@ -1,12 +1,12 @@
 
 export const text_data = [
     {
-        text: "I would have no hesitation whatsoever I recommending Adal Plumbing & Heating. The attention to detail, high standard of work, excellent communication and workmanship is second to none",
+        text: "I would have no hesitation whatsoever in recommending Adal Plumbing & Heating. The attention to detail, high standard of work, excellent communication and workmanship is second to none",
         name: "Tina"
     },
     {
         text: "After being given terrible advice and service from a previous technician, Az fixed the problem very quickly and efficiently. Great communication and turned up promptly. Would highly recommend and will be using his services again",
-        name: "Kell"
+        name: "Kelly"
     },
     {
         text: "We had a full bathroom installed by As from Adal Plumbing and it was top class from him. Friendly and courteous. Worked extremely hard on the job",
