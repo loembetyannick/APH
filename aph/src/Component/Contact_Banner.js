@@ -24,7 +24,7 @@ const Contact_Banner = () => {
           </a>
         </div>
         <div className='contact-banner-emailtext'>
-          <p> <a style={{color:"rgba(25, 2, 2, 0.5)"}} href='mailto:info@adalplumbingandheating.com'>info@adalplumbingandheating.com</a></p>
+          <p> <a style={{color:"rgba(25, 2, 2, 0.5)"}} href='mailto:info@adalplumbingandheating.com'>info@adalplumbingandheating.co.uk</a></p>
         </div>
       </div>
     </div>
