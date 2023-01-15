@@ -17,7 +17,7 @@ const AboutUs = () => {
             <div className='au-content-details'>
                 <p>Adal Plumbing and Heating Ltd</p>
                 <p>07506 522550</p>
-                <p>info@adalplumbingandheating.com</p>
+                <p>info@adalplumbingandheating.co.uk</p>
                 <p>Doncaster, South Yorkshire</p>
             </div>
             <div className='au-content-icon'>

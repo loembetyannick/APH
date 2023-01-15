@@ -19,12 +19,12 @@ const Contact_Banner = () => {
       </div>
       <div className='contact-banner-email'>
         <div className='contact-banner-img'>
-          <a style={{color:"rgba(25, 2, 2, 0.5)"}} href='mailto:info@adalplumbingandheating.com'>
+          <a style={{color:"rgba(25, 2, 2, 0.5)"}} href='mailto:info@adalplumbingandheating.co.uk'>
               <img src={email_icon}/>
           </a>
         </div>
         <div className='contact-banner-emailtext'>
-          <p> <a style={{color:"rgba(25, 2, 2, 0.5)"}} href='mailto:info@adalplumbingandheating.com'>info@adalplumbingandheating.co.uk</a></p>
+          <p> <a style={{color:"rgba(25, 2, 2, 0.5)"}} href='mailto:info@adalplumbingandheating.co.uk'>info@adalplumbingandheating.co.uk</a></p>
         </div>
       </div>
     </div>

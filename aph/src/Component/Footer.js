@@ -21,7 +21,7 @@ const Footer = () => {
             <div className='pages-contact'>
                 <p className='pages-container-title'>Contact</p>
                 <p className='pages-container-content'><a href='tel:075065225550'>07506 5225550</a></p>
-                <p className='pages-container-content'><a href='mailto:info@adalplumbinganadheating.com'>info@adalplumbingandheating.co.uk</a></p>
+                <p className='pages-container-content'><a href='mailto:info@adalplumbingandheating.co.uk'>info@adalplumbingandheating.co.uk</a></p>
                 <br/>
             </div>
             <div className='pages-socials'>
